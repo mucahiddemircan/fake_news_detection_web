@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Cal+Sans&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Special+Gothic+Expanded+One&display=swap");
+
+.leftside-container {
+  height: 100vh;
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto 0 auto;
+}
+
+.leftside-container .selected-value {
+  height: 160px;
+  padding: 1px;
+}
+
+.leftside-container .selected-value p {
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+}
+
+.leftside-container .selected-value p:not(:first-child) {
+  margin-top: 10px;
+}
+
+.leftside-container .left-bar {
+  height: 100vh;
+}
+
+.leftside-container .left-bar .header-text {
+  margin-top: 35px;
+  font-family: "Special Gothic Expanded One", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  font-size: 40px;
+  color: #0d7377;
+}
+
+.leftside-container .left-bar hr {
+  background-color: #212121;
+}
+
+.leftside-container .left-bar textarea::placeholder {
+  font-family: "Playfair Display", serif;
+}
+
+.leftside-container .left-bar button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  background-color: #14ffec;
+  color: #0d7377;
+  border: 2px solid #0d7377;
+}
+
+.leftside-container .left-bar div {
+  background-color: #0d7377;
+}
+
+.leftside-container .left-bar div h2 {
+  font-family: "Roboto", sans-serif;
+  color: #11ffec;
+}
+
+.leftside-container .left-bar div p {
+  font-family: "Roboto", sans-serif;
+  color: #11ffec;
+}
