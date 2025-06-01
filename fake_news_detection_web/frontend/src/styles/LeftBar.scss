@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Cal+Sans&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Special+Gothic+Expanded+One&display=swap");
+
+.leftside-container {
+  height: 100vh;
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+
+  .selected-value {
+    height: 160px;
+    padding: 1px;
+
+    p {
+      font-size: 16px;
+      letter-spacing: 0.5px;
+      font-family: "Roboto", sans-serif;
+      color: #212121;
+
+      &:not(:first-child) {
+        margin-top: 10px;
+      }
+    }
+  }
+
+  .left-bar {
+    height: 100vh;
+
+    hr {
+      height: 2px;
+      color: #2d3748;
+      background-color: #212121;
+    }
+
+    .header-text {
+      margin-top: 35px;
+      font-family: "Special Gothic Expanded One", sans-serif;
+      font-weight: 500;
+      letter-spacing: 0.5px;
+      font-size: 40px;
+      color: #2d3748;
+    }
+
+    textarea {
+      background-color: #f7fafc;
+      color: #2d3748;
+
+      &::placeholder {
+        font-family: "Playfair Display", serif;
+      }
+    }
+
+    button {
+      font-family: "Roboto", sans-serif;
+      font-weight: 400;
+      background-color: #3182ce;
+      color: #ffffff;
+      border: 2px solid white;
+
+      &:hover {
+        background-color: #2b6cb0;
+      }
+    }
+
+    .fake {
+      background-color: #e5ebef;
+
+      h2,
+      p {
+        font-family: "Roboto", sans-serif;
+        color: #dc2626;
+      }
+    }
+
+    .real {
+      background-color: #e5ebef;
+
+      h2,
+      p {
+        font-family: "Roboto", sans-serif;
+        color: #3db418;
+      }
+    }
+  }
+}

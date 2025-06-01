@@ -1,0 +1,42 @@
+.app {
+  text-align: center;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+textarea {
+  margin-top: 1rem;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.result {
+  margin-top: 2rem;
+  padding: 1rem;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.result.fake {
+  background-color: #ffe0e0;
+  color: #d8000c;
+}
+
+.result.real {
+  background-color: #e0ffe0;
+  color: #006400;
+}
+
+.error {
+  color: red;
+  margin-top: 1rem;
+}
+
+
